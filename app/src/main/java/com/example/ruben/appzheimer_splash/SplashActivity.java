@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -21,12 +22,14 @@ public class SplashActivity extends AppCompatActivity {
 
         ImageView a_rojaGrande = (ImageView)findViewById(R.id.logo_rojo_a);
         ImageView tituloVerde = (ImageView)findViewById(R.id.app_verde);
+        TextView subtitulo = (TextView)findViewById(R.id.text_splash);
 
         Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
         Animation myanimrotate = AnimationUtils.loadAnimation(this,R.anim.rotation);
 
         a_rojaGrande.startAnimation(myanim);
         tituloVerde.startAnimation(myanimrotate);
+        subtitulo.startAnimation(myanimrotate);
 
         abrirApp(true);
 
@@ -43,7 +46,7 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        },5000);
+        },6000);
     }
 
 }

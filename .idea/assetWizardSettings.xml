@@ -13,17 +13,17 @@
                       <PersistentState>
                         <option name="children">
                           <map>
-                            <entry key="launcherLegacy">
+                            <entry key="launcher">
                               <value>
                                 <PersistentState>
                                   <option name="children">
                                     <map>
-                                      <entry key="image">
+                                      <entry key="backgroundImage">
                                         <value>
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="paddingPercent" value="5" />
+                                                <entry key="scalingPercent" value="42" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -33,10 +33,24 @@
                                   </option>
                                   <option name="values">
                                     <map>
+                                      <entry key="backgroundImage" value="$USER_HOME$/PROYECTO FINAL 2DAM/LOGO FINAL/png/a_rojo.png" />
+                                      <entry key="backgroundLayerName" value="ic_launcher_background" />
+                                      <entry key="foregroundLayerName" value="ic_launcher_foreground" />
+                                      <entry key="outputName" value="ic_launcher_rojo" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                            <entry key="launcherLegacy">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
                                       <entry key="assetType" value="IMAGE" />
                                       <entry key="iconShape" value="NONE" />
-                                      <entry key="imageAsset" value="$USER_HOME$/PROYECTO FINAL 2DAM/LOGO FINAL/png/A_verde.png" />
-                                      <entry key="outputName" value="launcher_letra_a_verde" />
+                                      <entry key="imageAsset" value="$USER_HOME$/PROYECTO FINAL 2DAM/LOGO FINAL/png/a_rojo.png" />
+                                      <entry key="outputName" value="launcher_letra_a_rojo" />
                                     </map>
                                   </option>
                                 </PersistentState>

@@ -7,8 +7,8 @@
     <!-- lo que hacemos es crear un texto/imagen que entra por derecha con bouncer-->
     <translate
         xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromYDelta="100%p"
         android:duration="3000"
-        android:fromXDelta="100%p"
         android:toXDelta="0"
 
         />
